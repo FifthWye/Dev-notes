@@ -7,7 +7,7 @@ Here is my developer notes of solutions that was hard to find for me and just us
 
 ### Electron
 
-###### Puppeteer asar packaging problem ( [Issue](https://github.com/puppeteer/puppeteer/issues/2134) ) 
+##### Puppeteer asar packaging problem ( [Issue](https://github.com/puppeteer/puppeteer/issues/2134) ) 
 
 main.js
 ```
