@@ -9,7 +9,7 @@ Here is my developer notes of solutions that was hard to find for me and just us
 
 ###### Puppeteer asar packaging problem ( [Issue](https://github.com/puppeteer/puppeteer/issues/2134) ) 
 
-######## main.js
+main.js
 ```
 
 function getChromiumExecPath() {
@@ -25,7 +25,7 @@ export function createBrowser(options = {}) {
 
 ```
 
-######## package.json
+package.json
 ```
 "build": {
     "asar": true,
