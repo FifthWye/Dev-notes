@@ -7,6 +7,9 @@ Here is my developer notes of solutions that was hard to find for me and just us
 
 ### Electron
 
+##### Best electron auto updater example
+[Link](https://github.com/iffy/electron-updater-example)
+
 ##### Puppeteer asar packaging problem ( [Issue](https://github.com/puppeteer/puppeteer/issues/2134) ) 
 
 main.js
