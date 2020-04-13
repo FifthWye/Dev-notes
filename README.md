@@ -3,15 +3,13 @@ Here is my developer notes of solutions that was hard to find for me and just us
 
 ## Web
 
-#### Serverless puppeteer
+##### Serverless puppeteer
 [Git repository](https://github.com/serverless/examples/tree/master/aws-node-puppeteer)
 
-## Desktop
-
-### Electron
-
-##### Best electron auto updater example
-[Git repository](https://github.com/iffy/electron-updater-example)
+##### Puppeter don't load chromium without setting env
+```
+npm config set puppeteer_skip_chromium_download true -g
+``` 
 
 ##### Puppeteer asar packaging problem ( [Issue](https://github.com/puppeteer/puppeteer/issues/2134) ) 
 
@@ -38,5 +36,13 @@ package.json
     "asarUnpack": "node_modules/puppeteer/.local-chromium/**/*"
 }
 ```
+
+## Desktop
+
+### Electron
+
+##### Best electron auto updater example
+[Git repository](https://github.com/iffy/electron-updater-example)
+
 
 ## Mob
