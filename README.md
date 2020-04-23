@@ -3,6 +3,13 @@ Here is my developer notes of solutions that was hard to find for me and just us
 
 ## Web
 
+##### GIT
+Remove loacl branch
+```
+git branch -d branch_name
+```
+
+
 ##### Serverless puppeteer
 [Git repository](https://github.com/serverless/examples/tree/master/aws-node-puppeteer)
 
