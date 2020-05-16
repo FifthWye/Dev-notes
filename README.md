@@ -10,8 +10,10 @@ git branch -d branch_name
 ```
 
 
-##### Serverless puppeteer
+##### Serverless puppeteer with lambda functions
 [Git repository](https://github.com/serverless/examples/tree/master/aws-node-puppeteer)
+[Lambda layers arn versions](https://github.com/shelfio/chrome-aws-lambda-layer)
+
 
 ##### Puppeter don't load chromium without setting env
 ```
