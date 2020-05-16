@@ -11,7 +11,7 @@ git branch -d branch_name
 
 
 ##### Serverless puppeteer with lambda functions
-[Git repository](https://github.com/serverless/examples/tree/master/aws-node-puppeteer)
+[Git repository](https://github.com/serverless/examples/tree/master/aws-node-puppeteer) | 
 [Lambda layers arn versions](https://github.com/shelfio/chrome-aws-lambda-layer)
 
 
