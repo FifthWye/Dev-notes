@@ -48,6 +48,19 @@ package.json
 
 ## Desktop
 
+### Node.js
+If you have such an error, I bet you have 12 version of Node.js. Try install v 10 or erlier versions :
+```
+Error: Parse Error: Invalid header value char
+    at TLSSocket.socketOnData (_http_client.js:476:22)
+    at TLSSocket.emit (events.js:311:20)
+    at TLSSocket.EventEmitter.emit (domain.js:482:12)
+    at addChunk (_stream_readable.js:294:12)
+    at readableAddChunk (_stream_readable.js:275:11)
+    at TLSSocket.Readable.push (_stream_readable.js:209:10)
+    at TLSWrap.onStreamRead (internal/stream_base_commons.js:186:23)
+```
+
 ### Electron
 
 ##### Best electron auto updater example
