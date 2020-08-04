@@ -49,7 +49,7 @@ package.json
 ## Desktop
 
 ### Node.js
-If you have such an error, I bet you have 12 version of Node.js. Try install v 10 or erlier versions :
+If you have such an error, the problem is in pareser from newer versions of node js  Try install v 10 or erlier versions :
 ```
 Error: Parse Error: Invalid header value char
     at TLSSocket.socketOnData (_http_client.js:476:22)
@@ -59,6 +59,10 @@ Error: Parse Error: Invalid header value char
     at readableAddChunk (_stream_readable.js:275:11)
     at TLSSocket.Readable.push (_stream_readable.js:209:10)
     at TLSWrap.onStreamRead (internal/stream_base_commons.js:186:23)
+```
+This command might also help
+```
+--http-parser=legacy
 ```
 
 ### Electron
