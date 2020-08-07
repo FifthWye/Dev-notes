@@ -65,6 +65,8 @@ This command might also help
 --http-parser=legacy
 ```
 
+nvm for windows, would help a lot with having multiple versions of node
+
 ### Electron
 
 ##### Best electron auto updater example
