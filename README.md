@@ -48,6 +48,17 @@ package.json
 
 ## Desktop
 
+### ngrok
+
+[website](https://ngrok.com/)
+
+ngrok provides a real-time web UI where you can introspect all HTTP traffic running over your tunnels. Replay any request against your tunnel with one click.
+
+comand for seting up tunnel with localhost:3000 as a source
+```
+ngrok http 3000 -host-header="localhost:3000"
+```
+
 ### Node.js
 If you have such an error, the problem is in pareser from newer versions of node js  Try install v 10 or erlier versions :
 ```
