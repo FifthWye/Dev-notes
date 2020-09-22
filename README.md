@@ -85,3 +85,9 @@ nvm for windows, would help a lot with having multiple versions of node
 
 
 ## Mob
+
+## IDE
+
+### Vscode
+
+Best way to do changes in multiple lines is to search for exact RegEx and replace these lines with modefied content. [Example](https://stackoverflow.com/a/44793837)
